@@ -6,7 +6,7 @@ server.use('/api/posts', PostsRouter)
 const PORT = 9090
 
 server.get('/', (req, res) => {
-  res.send`<h2>Hello World</h2>`
+  res.send`<h2>Welcome to the Posts API</h2>`
 })
 
 server.listen(PORT, () => {
